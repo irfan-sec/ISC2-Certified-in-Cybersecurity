@@ -702,3 +702,380 @@ The other options are counterproductive: "strengthening a vulnerability" and "in
 **Answer:** A **user** is a subject.
 
 **Explanation:** A **subject** is an active entity that initiates an action or requests access. A **user** fits this definition perfectly. A **file** and **filename** are examples of **objects** (the passive resources being accessed). A **fence** is a physical control, unrelated to the subject/object access control model.
+
+Excellent. Here is the next set of questions from your provided context, formatted and ready for your repository.
+
+***
+
+## 🛡️ Layered Defense Strategy
+
+**Question:** What is the strategy that integrates people, technology, and operations capabilities to establish variable barriers across multiple layers and missions of an organization?
+
+* Cyberattack Prevention
+* **Layered Defense**
+* Multi-Factor Authentication
+* Single Point of Failure
+
+**Answer:** The correct answer is **Layered Defense**.
+
+**Explanation:** **Layered defense**, also known as **defense-in-depth**, is a core cybersecurity strategy. It involves implementing multiple, overlapping security controls across different layers (physical, technical, and administrative). The goal is to ensure that if one security measure fails, another one is already in place to stop or slow down an attack.
+
+* **Cyberattack Prevention** is a goal, not a comprehensive strategy.
+* **Multi-Factor Authentication** is a single type of technical control, a component of a layered defense, not the overall strategy.
+* A **Single Point of Failure** is a weakness that the layered defense strategy is specifically designed to eliminate.
+
+---
+
+## 🔑 Privileged Access Management (PAM)
+
+**Question:** How does privileged access management implement the principle of least privilege?
+
+* By providing access based on seniority
+* By restricting access to only the most critical information
+* By granting maximum access to all users
+* **By granting each user access only to the items they need**
+
+**Answer:** The correct answer is **by granting each user access only to the items they need**.
+
+**Explanation:** **Privileged Access Management (PAM)** is a security solution built around the **principle of least privilege**. This principle dictates that users should only have the absolute minimum levels of access—or permissions—needed to perform their job duties. PAM systems enforce this by carefully controlling and monitoring access to sensitive accounts and data.
+
+---
+
+## 📱 Logical vs. Physical Controls
+
+**Question:** Which of the following is an example of a logical access control method?
+
+* Turnstiles
+* Security guards
+* Cameras
+* **Biometrics on a smartphone**
+
+**Answer:** The correct answer is **biometrics on a smartphone**.
+
+**Explanation:** A **logical access control** is a technological measure used to manage access to digital systems, data, or software. Biometrics (fingerprint or face scan) on a smartphone are used to grant or deny access to the device's data and applications.
+
+* **Turnstiles**, **security guards**, and **cameras** are all examples of **physical access controls**, as they are used to manage access to a physical space.
+
+---
+
+## 💻 Controls for Network Data
+
+**Question:** Limiting access to data on the network would be considered which of the following controls?
+
+* Physical controls
+* Administrative controls
+* Virtualization controls
+* **Logical or technical controls**
+
+**Answer:** The correct answer is **logical or technical controls**.
+
+**Explanation:** **Logical controls** (also called **technical controls**) use technology to enforce security rules. Methods for limiting access to network data, such as firewalls, Access Control Lists (ACLs), encryption, and user authentication systems, are all examples of logical controls.
+
+* **Physical controls** protect physical spaces (e.g., locks).
+* **Administrative controls** are policies and procedures (e.g., a data handling policy).
+* **Virtualization controls** are specific to securing virtual machine environments.
+
+---
+
+## 📜 Administrative Controls in Practice
+
+**Question:** What would be considered an administrative control in the context of seat belt usage?
+
+* Building a car with seat belts
+* Using the seat belt
+* Attaching the seat belt to the car
+* **Passing a law requiring seat belt use**
+
+**Answer:** The correct answer is **passing a law requiring seat belt use**.
+
+**Explanation:** An **administrative control** is a policy, procedure, or regulation designed to guide or constrain behavior. A law is a formal administrative control created by a governing body.
+
+* **Building a car with seat belts** is an **engineering control**, as it designs safety directly into the product.
+* **Using the seat belt** is the action of complying with the control.
+
+---
+
+## 🚪 Alternative Access Controls
+
+**Question:** What alternative control could be used if biometric locks on multiple doors are not necessary and access does not need to be audited?
+
+* Removing doors and securing the area permanently
+* **Replacing doors with deadbolt locks**
+* Implementing biometric scanners on all doors
+* Installing a permanent wall
+
+**Answer:** The correct answer is **replacing doors with deadbolt locks**.
+
+**Explanation:** This question is about selecting a control that is appropriate for the risk. If the high security and audit logging features of biometric locks are not needed, a simpler and more cost-effective control like a **deadbolt lock** provides adequate physical security without unnecessary complexity. The other options are either impractical or contradict the premise of the question.
+
+---
+
+## 🏢 When to Use Role-Based Access Control (RBAC)
+
+**Question:** In what type of environment does role-based access control work well?
+
+* Low-staff turnover
+* **High-staff turnover and similar access requirements**
+* Single personnel with unique access requirements
+* Limited access requirements for all personnel
+
+**Answer:** The correct answer is **high-staff turnover and similar access requirements**.
+
+**Explanation:** **Role-Based Access Control (RBAC)** assigns permissions to roles (e.g., "Accountant," "Sales Rep") instead of to individual users. This is highly efficient in environments with high turnover because when an employee leaves, their access is revoked, and a new employee can be quickly assigned to the same role, inheriting the exact same permissions without manual configuration.
+
+---
+
+## 📈 The Problem of Privilege Creep
+
+**Question:** What term is used to describe the situation where someone inherits expanded permissions that are not appropriate for their role in Role-based Access Control (RBAC)?
+
+* Access overflow
+* Permissions anomaly
+* Role deviation
+* **Privilege creep**
+
+**Answer:** The correct answer is **Privilege creep**.
+
+**Explanation:** **Privilege creep** is the gradual accumulation of access rights beyond what a user currently needs to do their job. This often happens when employees change roles within an organization; they are granted new permissions for their new role, but their old, unnecessary permissions are never revoked. This violates the principle of least privilege and creates a security risk.
+
+---
+
+## ⏱️ Just-in-Time (JIT) Privileged Access
+
+**Question:** What is the key feature of just-in-time privileged access management?
+
+* Static privileges
+* Permanent administrative access
+* Unrestricted access
+* **Role-based subsets of privileges**
+
+**Answer:** The key feature is **role-based subsets of privileges** (granted temporarily).
+
+**Explanation:** **Just-in-Time (JIT) Privileged Access Management** is a security model where users are granted elevated privileges only for the specific time they are needed to complete a task. Instead of having permanent admin rights, a user requests temporary access, which is granted for a limited duration and then automatically revoked. This drastically reduces the risk associated with standing privileged accounts.
+
+---
+
+## 🏛️ Mandatory Access Control (MAC)
+
+**Question:** In Mandatory Access Control (MAC), what determines the level of access to certain areas in certain government agencies?
+
+* Owner’s discretion
+* Individual judgment
+* On a request basis
+* **Government policy and security clearance**
+
+**Answer:** The correct answer is **government policy and security clearance**.
+
+**Explanation:** In a **Mandatory Access Control (MAC)** system, access is not determined by the owner of the resource. Instead, access decisions are enforced by the operating system based on a central policy. Access is granted by comparing the **security clearance** of the subject (user) to the **classification level** of the object (data). This model is common in highly secure environments like the military and government agencies.
+
+---
+
+## 🔒 Modifying MAC Security Rules
+
+**Question:** Who can modify security rules in a system governed by Mandatory Access Control (MAC)?
+
+* Object owners at their discretion
+* **Trusted subjects designated as security administrators**
+* All subjects within the system
+* Randomly selected users
+
+**Answer:** The correct answer is **trusted subjects designated as security administrators**.
+
+**Explanation:** The defining feature of **Mandatory Access Control (MAC)** is its rigid, centralized control. Only authorized administrators can change the security policies and classification labels. Regular users and even the "owners" of files cannot alter the access permissions, which prevents unauthorized changes and enforces a strict, system-wide security policy.
+
+---
+
+## 💡 Single Point of Failure
+
+**Question:** Which of these combinations of physical security controls share a single point of failure?
+
+* Dogs and bollards
+* Badge readers and walls
+* Guards and fences
+* **High-illumination lighting and cameras**
+
+**Answer:** The correct answer is **high-illumination lighting and cameras**.
+
+**Explanation:** A security camera's effectiveness, especially at night, is directly dependent on the availability of adequate lighting. If the power to the lights fails, the cameras may become useless. This shared dependency on a power source creates a **single point of failure** for both controls. The other pairs of controls operate independently of each other.
+
+---
+
+## 💼 SMB Security Challenges
+
+**Question:** What challenges do small and medium businesses face regarding technical controls in payroll systems?
+
+* Lack of administrative controls
+* Limited availability requirements
+* Inadequate physical controls
+* **Insufficient personnel for duty separation**
+
+**Answer:** The correct answer is **insufficient personnel for duty separation**.
+
+**Explanation:** **Separation of duties** is a key control principle where no single person has sole control over a critical task, preventing fraud and error. In a payroll system, this might mean one person enters hours while another approves payments. Small businesses often lack enough staff to properly segregate these duties, creating a significant risk that a single employee could manipulate the system for personal gain.
+
+---
+
+## 🚶‍♂️ Physical Access Control Examples
+
+**Question:** Which of the following is an example of a physical access control?
+
+* Antivirus software
+* Encryption algorithms
+* Firewalls
+* **Motion detectors**
+
+**Answer:** The correct answer is **motion detectors**.
+
+**Explanation:** **Physical access controls** are mechanisms designed to manage access to a physical area. A **motion detector** identifies physical movement and can trigger an alarm or other response, serving as a deterrent and detection control for a physical space. The other options are all logical/technical controls that protect digital assets.
+
+---
+
+## 👥 Two-Person Integrity
+
+**Question:** Duncan and Mira work in the data center at Triffid, Inc. There is a policy in place that requires both to be present in the data center at the same time. If one has to leave for any reason, the other must step out, too, until they can both re-enter. This is called \_\_\_\_\_\_\_\_.
+
+* **Two-person integrity**
+* Defense in depth
+* Multifactor authentication
+* Blockade
+
+**Answer:** This is called **two-person integrity**.
+
+**Explanation:** **Two-person integrity** (also known as the two-person rule) is a control that requires the presence of two authorized individuals to perform a critical task or access a sensitive area. This ensures accountability and prevents unilateral action by a single insider, significantly enhancing security.
+
+---
+
+## 📉 Scalability of Discretionary Access Control (DAC)
+
+**Question:** Why is Discretionary Access Control (DAC) not considered very scalable?
+
+* It is a hardware-intensive approach
+* It relies on mandatory access controls
+* It uses advanced encryption techniques
+* **It relies on the discretion of individual object owners**
+
+**Answer:** The correct answer is **it relies on the discretion of individual object owners**.
+
+**Explanation:** In a **Discretionary Access Control (DAC)** model, every owner of a file or resource is responsible for setting its permissions. In a large organization with thousands of users and millions of files, managing these permissions becomes chaotic, inconsistent, and nearly impossible to audit effectively. This lack of central control makes DAC difficult to scale.
+
+---
+
+## 🚶‍♀️🚶‍♂️ The Two-Person Rule
+
+**Question:** What is the two-person rule in the context of security strategy?
+
+* **Two people must be in an area together**
+* Two people must have the same combination
+* Two people must perform the same duties
+* Two people must have access to the same information
+
+**Answer:** The correct answer is **two people must be in an area together**.
+
+**Explanation:** The **two-person rule** is a security control that mandates that at least two authorized individuals must be present at the same time to access a secure location or perform a critical operation. It is designed to prevent insider threats and provide mutual oversight and accountability for actions taken in sensitive environments.
+
+---
+
+## ⏳ Disabling vs. Deleting Accounts
+
+**Question:** Why is it recommended to disable accounts for a period before deletion when an employee leaves the company?
+
+* To speed up the account deletion process
+* To allow the separated employee access to data
+* So the ex-employee can’t steal secrets
+* **To preserve the integrity of audit trails or files**
+
+**Answer:** The correct answer is **to preserve the integrity of audit trails or files**.
+
+**Explanation:** When an account is deleted, all the associated data, permissions, and log entries might be lost or become difficult to attribute. By first **disabling** the account, access is immediately cut off, but the account itself and its associated data remain intact. This allows for a smooth transition of ownership for files and preserves a clear audit trail for any future investigations before the account is permanently deleted.
+
+---
+
+## 🤫 Password Confidentiality
+
+**Question:** Lakshmi presents a user ID and a password to a system to log on. Which of the following characteristics must the password have?
+
+* **Confidential**
+* Shared
+* Mathematical
+* Unique
+
+**Answer:** The correct answer is **Confidential**.
+
+**Explanation:** The entire security of a password-based authentication system rests on the password being kept secret. If a password is not **confidential**, anyone who knows it can impersonate the user. Therefore, confidentiality is its most critical security characteristic.
+
+---
+
+## 👤 User Provisioning
+
+**Question:** What is user provisioning in identity management?
+
+* Ensuring a user can always control what they want to access
+* Enabling the option to delete a users account
+* Ensuring that users are conducting regular antivirus scans
+* **Managing access to resources and information systems**
+
+**Answer:** The correct answer is **managing access to resources and information systems**.
+
+**Explanation:** **User provisioning** is the process within Identity and Access Management (IAM) that involves creating user accounts and assigning them the appropriate permissions and access rights to various resources like applications, files, and databases. It is the process of getting a user "set up" in the system according to their role. Its counterpart is de-provisioning, which involves revoking access when a user leaves.
+
+---
+
+## 🖥️ SysAdmin Responsibilities
+
+**Question:** Which of the following is the responsibility of systems administrators who use privileged accounts?
+
+* Managing financial transactions
+* Marketing and promotions
+* Handling customer service
+* **Operating systems and applications**
+
+**Answer:** The correct answer is **operating systems and applications**.
+
+**Explanation:** **Systems administrators** are technical staff responsible for the maintenance, configuration, and reliable operation of computer systems and servers. Their privileged accounts grant them the access needed to install, update, secure, and troubleshoot the core **operating systems and applications** that the business relies on.
+
+---
+
+## ⌨️ Behavioral Biometrics
+
+**Question:** What does behavioral biometrics measure?
+
+* Characteristics like fingerprint and iris scan
+* Environmental design elements
+* **User actions, such as voiceprints and keystroke dynamics**
+* Physiological attributes
+
+**Answer:** The correct answer is **user actions, such as voiceprints and keystroke dynamics**.
+
+**Explanation:** Biometrics can be split into two main categories:
+* **Physiological biometrics** measures a person's physical characteristics (e.g., fingerprint, face, iris).
+* **Behavioral biometrics** measures the unique patterns in a person's actions (e.g., their typing rhythm, how they move a mouse, their gait, or the sound of their voice).
+
+---
+
+## 📹 Monitoring Tools
+
+**Question:** Which of the following is an example of a monitoring tool?
+
+* **Cameras**
+* Turnstiles
+* Biometrics
+* Passwords
+
+**Answer:** The correct answer is **cameras**.
+
+**Explanation:** A **monitoring tool** is used to observe and record activity for security purposes. Cameras are a primary example of a monitoring tool used in physical security to provide surveillance over an area. The other options are examples of access controls or authentication methods, not monitoring tools.
+
+---
+
+## 🚫 Preventing Tailgating
+
+**Question:** Which is a physical control that prevents “piggybacking” or “tailgating,” when an unauthorized person follows an authorized person into a controlled area?
+
+* Fence
+* **Turnstile**
+* Bollard
+* Wall
+
+**Answer:** The correct answer is **turnstile**.
+
+**Explanation:** **Tailgating** (or piggybacking) is a common physical security breach. A **turnstile** is specifically designed to defeat this by creating a physical barrier that allows only one person to pass through at a time for each authorized credential presented. This enforces a "one person, one entry" rule.
