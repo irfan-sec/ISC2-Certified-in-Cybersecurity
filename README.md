@@ -68,4 +68,30 @@ This repository and its contents are licensed under the **MIT License**. See the
 
 -----
 
-*Last Updated: July 2025*
+# (ISC)² Certified in Cybersecurity (CC) - Study Notes
+
+![ISC2 Logo](https://www.isc2.org/-/media/ISC2/Logos/logo-2023.svg?h=80&w=215&la=en&hash=05022569C7550855215A007204ED9260)
+
+Welcome to my public repository documenting my journey towards the (ISC)² Certified in Cybersecurity (CC) certification. This repo serves as my personal knowledge base and a collection of my notes and summaries for each domain of the CC curriculum.
+
+My goal is to solidify my understanding of the core principles of cybersecurity by teaching them back to myself through these notes.
+
+---
+
+## 📚 Course Domains
+
+This repository is organized by the five domains of the Certified in Cybersecurity exam. I will be adding my notes to each section as I complete them.
+
+* **Domain 1: Security Principles** - ✅ *Completed*
+* **Domain 2: Incident Response, Business Continuity (BC) and Disaster Recovery (DR) Concepts** - *(In Progress)*
+* **Domain 3: Access Control Concepts** - ✅ *Completed*
+* **Domain 4: Network Security** - *(Not Started)*
+* **Domain 5: Security Operations (SecOps)** - *(Not Started)*
+
+---
+
+## About My Journey
+
+I am an official (ISC)² Candidate, actively working towards my first globally recognized cybersecurity certification. This repository is a testament to my dedication and commitment to professional development.
+
+You can follow my hands-on projects, like my custom scanner `Aura-sec`, on my main GitHub profile.
