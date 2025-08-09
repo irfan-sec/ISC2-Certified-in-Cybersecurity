@@ -1,0 +1,28 @@
+# Domain 3: Access Control Concepts - My Notes 🔑
+
+---
+
+## Topic: Access Control Models
+
+### My Simple Explanation
+Access Control is about defining **who gets to do what** with a resource. It's the set of rules that decides if a user is allowed to view a file, edit a file, or run a program. There are three main models for how these rules are enforced.
+
+* **DAC (Discretionary Access Control) 🙋‍♂️:** The **owner** of a resource gets to decide who can access it. "Discretionary" means it's at the owner's discretion.
+    * **Analogy:** It's like your personal diary. **You**, the owner, decide which of your friends are allowed to read it.
+    * **Real-world Example:** Standard file permissions on Windows or Linux. You can right-click a file you own and grant access to other users.
+
+* **MAC (Mandatory Access Control) 🎖️:** A central **authority** (the system or an administrator) decides who gets access based on **security labels**. It is not up to the owner.
+    * **Analogy:** This is a military or government system. It doesn't matter if you wrote a document; if the document is labeled "Top Secret" and you only have "Secret" clearance, the system will not let you read it. The rules are mandatory and cannot be changed by the user.
+    * **Real-world Example:** SELinux (Security-Enhanced Linux).
+
+* **RBAC (Role-Based Access Control) 👨‍⚕️👩‍⚖️:** Access is granted based on a user's **job title or function** (their "role").
+    * **Analogy:** In a hospital, a user with the "Doctor" role can view patient medical records. A user with the "Billing" role can only view financial information. A "Guest" can only access the public Wi-Fi. You get permissions based on your job, not who you are as an individual.
+    * **Real-world Example:** This is the most common model used in businesses and corporate applications.
+
+### Key Terminology
+* **Authentication (Who are you?):** Proving your identity, usually with a password or biometrics.
+* **Authorization (What are you allowed to do?):** The permissions you are granted after you have been authenticated.
+* **Accounting (What did you do?):** Logging user actions for auditing and security purposes.
+
+### How it Relates to My Practical Work
+> In a CTF, finding a password and logging in is **Authentication**. What I can do after I log in is **Authorization**. Gaining `root` access is the ultimate goal because it bypasses almost all authorization rules. The 'Fawn' HTB machine was vulnerable because its FTP service had flawed access control (it authorized an 'anonymous' user).
