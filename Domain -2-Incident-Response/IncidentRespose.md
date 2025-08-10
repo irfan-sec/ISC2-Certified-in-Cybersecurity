@@ -1,0 +1,27 @@
+
+
+# Domain 2: Incident Response, BCDR - My Notes 🆘
+
+---
+
+## Topic: The Incident Response (IR) Process
+
+### My Simple Explanation
+Incident Response is the emergency plan for what to do *when* a hack happens. It's a formal, step-by-step playbook to control the damage, kick the attacker out, and get back to normal as quickly and safely as possible.
+
+The most common model for this process has six steps:
+
+1.  **Preparation 🛡️:** This is the work you do *before* an incident. It involves having the right tools, trained staff, and a clear plan ready to go. It's like a fire department checking their equipment and practicing their drills.
+2.  **Identification 🔎:** This is the "alarm bell" phase. It's when you discover that an incident is happening or has happened. This could be from an antivirus alert, a strange log entry, or an employee reporting something suspicious.
+3.  **Containment ⛓️:** This means stopping the attack from spreading further. It's like closing the fire doors in a building to contain a fire to one area. You might disconnect an infected computer from the network or block a malicious IP address at the firewall.
+4.  **Eradication 🧼:** This is the cleanup phase. You must completely remove the attacker and all their tools (malware, backdoors, etc.) from your systems.
+5.  **Recovery ⚙️:** This is where you restore the affected systems back to normal, trusted operation. This often involves restoring data from clean backups.
+6.  **Lessons Learned 📝:** This is the most important step. After the crisis is over, you analyze the entire incident. How did the attacker get in? What did we do well? What did we do poorly? The goal is to improve your defenses so this specific attack cannot happen again.
+
+### Key Terminology
+* **IRP (Incident Response Plan):** The formal, written document detailing these steps.
+* **BCP (Business Continuity Plan):** A plan to keep the essential parts of the business running *during* a disaster.
+* **DRP (Disaster Recovery Plan):** A plan to recover your IT infrastructure *after* a disaster.
+
+### How it Relates to My Practical Work
+> When I gain root on a CTF box, that represents a complete failure of the target's **Preparation** and **Identification**. The process of finding the flag is like the **Recovery** step for the attacker—retrieving the valuable data.
