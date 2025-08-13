@@ -1,4 +1,4 @@
-# L3 Access Control Concepts
+# Access Control Concepts
 
 ## Introduction
 
