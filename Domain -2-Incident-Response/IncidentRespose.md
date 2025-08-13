@@ -1,4 +1,4 @@
-# L2: Incident Response, Business Continuity & Disaster Recovery
+# Incident Response, Business Continuity & Disaster Recovery
 
 ## Introduction
 
